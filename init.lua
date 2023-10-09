@@ -18,6 +18,8 @@ are first encountering a few different constructs in your nvim config.
 vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
 
+require('keymaps')
+
 -- Install package manager
 --    https://github.com/folke/lazy.nvim
 --    `:help lazy.nvim.txt` for more info
